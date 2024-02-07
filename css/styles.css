@@ -1,0 +1,198 @@
+:root {
+    --main: #1c28aa;
+    --main-dark: #192394;
+    --main-high: #2B36B3;
+    --main-light: #4A56D4;
+    --backdrop: #E9EBFF;
+    --white: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #FCE373;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-peach {
+    background-color: peachpuff;
+}
+
+.bg-lime {
+    background-color: rgb(203, 244, 203);
+}
+
+.card{
+    background-color: #6352A0;
+}
+
+.carrouselBanner {
+    background: linear-gradient(pink, hotpink);
+    width: 100%;
+    aspect-ratio: 2/1;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+     /* */display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.carousel-caption{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.516);
+    background-color: #00000058;
+}
+
+.carrouselBanner > div{
+color: whitesmoke;
+font-size: 2em;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.516);
+font-weight: 900;
+text-transform: uppercase;
+display: none;
+}
+
+.carrouselBanner > img{
+    max-width: 50%;
+}
+
+a{
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;}
+    
+.botoncolor{
+    background-color: #6352A0;
+    color: whitesmoke;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+.botoncolor:hover{
+    background-color: #FCE373;
+    color: #1b1a1aef;
+}
+
+.grid_container {
+    background-color: #00000000;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 0.5rem;
+}
+
+.input-group-text{
+    background-color: #00000038;
+    color: white;
+    border: none;
+}
+
+.form-control , .form-select{
+    background-color: #c2c1bf;
+}
+
+
+@media (max-width: 768px) {
+    .textocentrado{
+        width: 90%;
+    }
+    
+    .imagenes-t{
+        width: 90%;
+    }
+    
+    .tamañoimg{
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .textocentrado{
+        width: 50%;
+    }
+    
+    .imagenes-t{
+        width: 50%;
+    }
+    
+    .tamañoimg{
+        width: 40%;
+    }
+
+    .grid_container{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .carrouselBanner {
+
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 30px;
+    }
+
+    .carrouselBanner > img{
+        max-width: 30%;
+    }
+    
+    .textocentrado{
+        width: 40%;
+    }
+    
+    .imagenes-t{
+        width: 45%;
+    }
+    
+    .tamañoimg{
+        width: 35%;
+    }
+
+    .grid_container{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        }
+
+}
+.accordion-item{
+    background-color: #6352A0;
+}
+
+.accordion-button{
+    background-color: #6352A0;
+}
+
+.fondomorado{
+    background-color: #6352A0;
+}
+
+.imgproduct{
+    width: 95px;
+}
+@media (min-width: 1200px) {
+
+    .img-fluid{
+        width: 90%;
+    }
+   
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {}

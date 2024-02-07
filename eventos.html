@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtBlend | Eventos</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/empresa/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="d-none">Artblend</h1>
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container">
+            <div class="navbar-brand"><img src="imagenes/empresa/artblend.png" alt="logo de Artblend"></div>            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#miNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="miNavBar">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Quienes Somos</a>
+                    <a class="nav-link" href="queofrecemos.html">Que ofrecemos</a>
+                    <a class="nav-link" href="acrilico.html">Pinturas</a>
+                    <a class="nav-link" href="#">Eventos</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <div class="container p-0">
+            <div id="miSlider" class="carousel slide" data-bs-ride="carousel">
+    
+    
+                <div class="carousel-inner text-light">
+                    <div class="carousel-item active">
+                        <div class="carrouselBanner" style="background-image:url('imagenes/banners/designer.png')" title="Banner publicitario venta de obras de arte">
+                        </div>
+    
+                        <div class="carousel-caption d-none">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carrouselBanner" style="background-image:url('imagenes/banners/clases.png')" 
+                                title="banner oferta de clases">
+                            </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carrouselBanner" style="background-image:url('imagenes/banners/vendeobras.png')"
+                                title="banner oferta vende con nosotros">
+                            </div>
+                    </div>
+                </div>
+    
+    
+                <button class="carousel-control-prev" type="button" data-bs-target="#miSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+    
+                <button class="carousel-control-next" type="button" data-bs-target="#miSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+    
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#miSlider" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#miSlider" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#miSlider" data-bs-slide-to="2"></button>
+                </div>
+    
+            </div>
+        </div>
+
+    <div class="container col-12 border rounded-5 text-center mx-auto bg-dark text-white pb-5 mt-5">
+        <h2 class="p-5">Próximos Eventos</h2>
+    
+
+    <div class="card-deck row">
+        <div class="card col-md-6 col-lg-3">
+          <img class="card-img-top" src="imagenes/eventos/exposicion.jpg" alt="Exposición de arte">
+          <div class="card-body">
+            <h3 class="card-title">Exposición de Arte Contemporáneo:</h3>
+            <p class="card-text"><strong>Artblend</strong> te invita a explorar lo mejor del arte contemporáneo 
+                argentino en nuestra próxima exposición. Descubre obras de destacados artistas 
+                locales que representan diversas corrientes artísticas y expresiones creativas. 
+                </p>
+            <p class="card-text "><small>Próxima Fecha: 25/08/2023</small></p>
+          </div>
+        </div>
+        <div class="card col-md-6 col-lg-3">
+          <img class="card-img-top" src="imagenes/eventos/oleo.jpg" alt="Taller de pintura al oleo">
+          <div class="card-body">
+            <h3 class="card-title">Taller de Pintura al Óleo</h3>
+            <p class="card-text">Únete a nuestro taller de <strong>pintura al óleo</strong> y descubre 
+                el fascinante mundo de esta técnica artística. Aprende de la mano de talentosos 
+                artistas locales, quienes compartirán sus conocimientos y técnicas para crear 
+                <strong>obras de arte impactantes.</strong></p>
+            <p class="card-text"><small>Próxima Fecha: 10/10/2023</small></p>
+          </div>
+        </div>
+        <div class="card col-md-6 col-lg-3">
+          <img class="card-img-top" src="imagenes/eventos/subasta.jpg" alt="Subasta de arte">
+          <div class="card-body">
+            <h3 class="card-title">Subasta de Arte Benéfica</h3>
+            <p class="card-text"><strong>Artblend</strong> se enorgullece de presentar una subasta de 
+                arte benéfica, donde podrás pujar por increíbles obras de arte mientras apoyas 
+                una causa noble. Únete a nosotros para una noche llena de emoción y generosidad, 
+                donde artistas destacados donarán sus obras para recaudar fondos destinados a 
+                proyectos artísticos.</p>
+            <p class="card-text"><small>Próxima Fecha: 06/09/2023</small></p>
+          </div>
+        </div>
+            <div class="card col-md-6 col-lg-3">
+              <img class="card-img-top" src="imagenes/eventos/cultura.jpg" alt="Conferencia de arte y cultura">
+              <div class="card-body">
+                <h3 class="card-title">Conferencia de Arte y Cultura</h3>
+                <p class="card-text">Únete a nuestra conferencia de arte y cultura, donde 
+                    exploraremos diversos temas relacionados con el <strong>arte</strong>, la creatividad y su 
+                    impacto en la sociedad. Contaremos con la participación de reconocidos expertos, 
+                    artistas destacados y líderes de opinión en el mundo del arte. </p>
+                <p class="card-text "><small>Próxima Fecha: 21/09/2023</small></p>
+              </div>
+            </div>
+      </div>
+    </div>
+
+
+    <footer class="container bg-dark text-white row justify-content-center align-items-center mt-5">
+        <div class="col-12 col-md-4 mt-4 mb-4"><img class="mifoto border rounded-5 w-50 d-block mx-auto" src="imagenes/empresa/mifoto.png" alt="Foto personal del creador de la pagina"></div>
+        <div class="col-12 text-center col-md-4">
+        <p>Jesús Moreno (28 Años)</p>
+        <p> sus.alejandror@gmail.com</p>
+        <a href="https://www.instagram.com/susmorenor/">IG @Susmorenor</a>
+        </div>      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</main>
+</body>
+
+
+</html>
